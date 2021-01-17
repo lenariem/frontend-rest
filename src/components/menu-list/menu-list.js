@@ -34,9 +34,9 @@ class MenuList extends Component {
 
         const items = menuItems.map(menuItem => {
                 return ( <MenuListItem 
-                            key = {menuItem.id} 
+                            key = {menuItem._id} 
                             menuItem = {menuItem}
-                            onAddToCart = {() => addedToCart(menuItem.id)}
+                            onAddToCart = {() => addedToCart(menuItem._id)}
                         />
                 )
         })

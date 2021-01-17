@@ -49,7 +49,7 @@ const CartTable = ({items, totalPrice, deleteFromCart, RestoService}) => {
 const generateOrder = (items) => {
     const newOrder = items.map(item => {
         return {
-            id: item.id,
+            id: item._id,
             title: item.title,
             qtty: item.qtty,
             date: item.date

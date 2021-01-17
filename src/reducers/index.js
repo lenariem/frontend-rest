@@ -57,7 +57,7 @@ const reducer = (state = initialState, action) => {
             };
         case 'ITEM_ADD_TO_CART':
             const id = action.payload
-            
+            console.log("state.items" + state.items)
             const itemInd = state.items.findIndex(item => item.id === id)
             if (itemInd >= 0){
                 const itemInState = state.items.find(item => item.id === id)
@@ -76,12 +76,16 @@ const reducer = (state = initialState, action) => {
                 }
             } 
             // item was not in cart before
-            const item = state.menu.find(item => item.id === id)
+            
+            const item = state.menu.find(item => item._id === id)
+            if(!item) {
+                return state
+            }
             const newItem = {
                 title: item.title,
                 price: item.price,
                 url: item.url,
-                id: item.id,
+                id: item._id,
                 qtty: 1
             }
             
