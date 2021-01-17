@@ -1,0 +1,20 @@
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    color: #fff;
+
+    &__mail {
+        text-shadow: 1px 1px 2px black;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+

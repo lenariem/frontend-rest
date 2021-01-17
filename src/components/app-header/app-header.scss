@@ -1,0 +1,46 @@
+.header {
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2%;
+
+    &__link {
+        display: flex;
+        margin-right: 1.8%;
+        padding: 1%;
+        font-size: 1.3rem;
+        text-shadow: 2px 2px 3px black;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s all;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.212);
+        }
+    }
+
+    .first:hover {
+        background-color: transparent;
+    }
+
+    &__cart {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    &__logo {
+        position: absolute;
+        width: 170px;
+        left: 0px;
+        height: 110px;
+        top: -5px;
+        transition: 0.6s all;
+
+        &:hover {
+            filter: saturate(300%);
+        }
+    }
+}

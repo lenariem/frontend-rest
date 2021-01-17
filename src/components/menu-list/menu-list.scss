@@ -1,0 +1,33 @@
+.menu {
+    &__list {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, .3);
+    }
+}
+
+.filter {
+   width: 30%;
+    margin: 1% auto;
+}
+
+.choiceText {
+    font-style: italic;
+    color: gray;
+}
+
+select {
+    padding: 1%;
+    cursor: pointer;
+}
+
+option {
+    padding: 1%;
+}
+
+label {
+    margin-right: 1%;
+}

@@ -1,0 +1,98 @@
+.item_page{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px - 50px);
+}
+.item_block{
+    margin: auto;
+    width: 730px;
+    background-color: rgba(84, 84, 84, 0.8);
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.back{
+    margin-left: 5%;
+    background-color:  #7eabdbdc;
+}
+
+.menu__item{
+    position: relative;
+}
+.menu__title {
+    font-weight: 700;
+}
+
+.menu__titles_container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu__warn {
+    color: rgb(185, 12, 12);
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.menu__descr {
+    padding-bottom: 1%;
+    text-align: center;
+}
+.menu__img{
+    object-fit: cover;
+}
+
+.menu__category_Img{
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pizza {
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/01/12/59/pizza-1428931_960_720.png');
+    width: 70px;
+    height: 70px;
+}
+.salads {
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/21/23/29/salad-575436_1280.png');
+    width: 90px;
+    height: 70px;
+}
+.meat{
+    background-image: url('https://freeiconshop.com/wp-content/uploads/edd/meat-outline-filled.png');
+}
+
+
+.menu__allerg_Img{
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    right: 35px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.egg{
+    background-image: url('https://www.flaticon.com/svg/vstatic/svg/837/837611.svg?token=exp=1610535992~hmac=5bb79e3be73d5b9d8c1e45a62cf03d19');
+    width: 70px;
+    height: 70px;
+}
+.wheat {
+    background-image: url('https://www.flaticon.com/svg/vstatic/svg/3662/3662282.svg?token=exp=1610536061~hmac=3be822da1de67b4c453025af1538febe');
+    width: 80px;
+    height: 75px;
+}
+.milk{
+    background-image: url('https://www.flaticon.com/svg/vstatic/svg/3500/3500270.svg?token=exp=1610731248~hmac=2475d46fc7028d0782240898a145ca4c');
+}
