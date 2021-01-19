@@ -56,17 +56,17 @@
 }
 
 .pizza {
-    background-image: url('https://cdn.pixabay.com/photo/2016/06/01/12/59/pizza-1428931_960_720.png');
+    background-image: url('./icons/pizza.png');
     width: 70px;
     height: 70px;
 }
 .salads {
-    background-image: url('https://cdn.pixabay.com/photo/2014/12/21/23/29/salad-575436_1280.png');
+    background-image: url('./icons/salad.svg');
     width: 90px;
     height: 70px;
 }
 .meat{
-    background-image: url('https://freeiconshop.com/wp-content/uploads/edd/meat-outline-filled.png');
+    background-image: url('./icons/meat.png');
 }
 
 
@@ -83,16 +83,16 @@
 }
 
 
-.egg{
-    background-image: url('https://www.flaticon.com/svg/vstatic/svg/837/837611.svg?token=exp=1610535992~hmac=5bb79e3be73d5b9d8c1e45a62cf03d19');
+.egg {
+    background-image: url('./icons/egg.svg');
     width: 70px;
     height: 70px;
 }
 .wheat {
-    background-image: url('https://www.flaticon.com/svg/vstatic/svg/3662/3662282.svg?token=exp=1610536061~hmac=3be822da1de67b4c453025af1538febe');
+    background-image: url('./icons/grain.svg');
     width: 80px;
     height: 75px;
 }
-.milk{
-    background-image: url('https://www.flaticon.com/svg/vstatic/svg/3500/3500270.svg?token=exp=1610731248~hmac=2475d46fc7028d0782240898a145ca4c');
+.milk {
+    background-image: url('./icons/milk.svg');
 }

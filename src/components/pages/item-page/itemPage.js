@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
-import WithRestoService from '../hoc/'
-import Spinner from '../spinner'
-import Error from '../error'
-import NotFoundPage from './not-found-page'
-import {menuLoaded, menuRequested, menuError, addedToCart} from '../../actions'
+import WithRestoService from '../../hoc'
+import Spinner from '../../spinner'
+import Error from '../../error'
+import NotFoundPage from '../not-found-page'
+import {menuLoaded, menuRequested, menuError, addedToCart} from '../../../actions'
 
 import './itemPage.css'
 
