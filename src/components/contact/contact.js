@@ -29,7 +29,7 @@ class Contact extends Component {
                             </div>
                             <div className="contact__triggers">
                                 <button className="contact__btn">Send</button>
-                                <div class="contact__policy">
+                                <div className="contact__policy">
                                     <input required type="checkbox" />
                                     <span>I agree with <Link to={'/contact/policy'} className="contact__pp">private policy</Link></span>
                                 </div>
