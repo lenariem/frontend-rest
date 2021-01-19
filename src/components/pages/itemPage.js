@@ -38,14 +38,14 @@ class ItemPage extends Component {
             )
         }
         const item = menuItems.find(el => el._id === this.props.match.params.id)
-       
+               
         if (item === undefined) {
             return (
                     <NotFoundPage/>
             )
         }
         
-        const{title, url, category, price, id, descr, allerg} = item
+        const{title, url, category, price, _id, descr, allerg} = item
         
         return (
        
@@ -59,7 +59,7 @@ class ItemPage extends Component {
                         <div className="menu__warn">Allergy warnings:</div>
                     </div>
                     <div className="menu__price">Price: <span>{price}$</span></div>
-                    <button onClick = {()=>this.props.addedToCart(id)} className="menu__btn">Add to cart</button>
+                    <button onClick = {()=>this.props.addedToCart(_id)} className="menu__btn">Add to cart</button>
                     <span className = {`menu__allerg_Img ${allerg}`} title={allerg}></span> 
                 </div>
             </div>
