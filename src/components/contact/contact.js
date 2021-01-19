@@ -31,7 +31,7 @@ class Contact extends Component {
                                 <button className="contact__btn">Send</button>
                                 <div className="contact__policy">
                                     <input required type="checkbox" />
-                                    <span>I agree with <Link to={'/contact/policy'} className="contact__pp">private policy</Link></span>
+                                    <span>I agree with <Link to={'/contact/policy'} className="contact__pp" target="_blank">private policy</Link></span>
                                 </div>
                         </div>      
                     </form> 
