@@ -1,9 +1,9 @@
 /* import randomstring from 'randomstring' */
 
 export default class RestoService{
-    _apiBase = 'http://localhost:5000'
-    /* _apiBase = 'https://backend-rest-react.herokuapp.com'
- */
+    /* _apiBase = 'http://localhost:5000' */
+    _apiBase = 'https://backend-rest-react.herokuapp.com'
+
     async getResource(url) {
         const urlToSee = `${this._apiBase}${url}`
         console.log("url:" + urlToSee)
