@@ -35,9 +35,9 @@ const CartTable = ({items, totalPrice, deleteFromCart, RestoService}) => {
            
             <button
                 className="order"
-                onClick={() => {
+                onClick={async() => {
                     const genOrders = generateOrder(items)
-                    RestoService.setOrder(genOrders, totalPrice)
+                    await RestoService.setOrder(genOrders, totalPrice)
                     history.push('/orders') // redirect for functional component
                 }}
             >Make an Order</button>
