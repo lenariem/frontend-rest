@@ -16,15 +16,15 @@ class Contact extends Component {
                         <input type="hidden" name="_subject" value="Message from RestaurantApp" />
                         
                         <div className="contact__input">
-                            <input name="name" id="name" type="text" required maxLength="30" />
+                            <input name="name" id="name" type="text" required maxLength="30" title="please fill this field"/>
                             <label htmlFor="name">Your Name</label>
                         </div>
                             <div className="contact__input">
-                                <input name="email" id="email" type="email" required maxLength="50" />
+                                <input name="email" id="email" type="email" required maxLength="50" title="please fill this field"/>
                                 <label htmlFor="email">Your Email</label>
                             </div>
                             <div className="contact__textarea">
-                                <textarea name="text" id="text" required maxLength="300"></textarea>
+                                <textarea name="text" id="text" required maxLength="300" title="please fill this field"></textarea>
                                 <label htmlFor="text">Your Message</label>
                             </div>
                             <div className="contact__triggers">
