@@ -39,6 +39,7 @@ const CartTable = ({items, totalPrice, deleteFromCart, RestoService}) => {
                     const genOrders = generateOrder(items)
                     await RestoService.setOrder(genOrders, totalPrice)
                     history.push('/orders') // redirect for functional component
+                    window.scrollTo(0, 0)
                 }}
             >Make an Order</button>
         </>
