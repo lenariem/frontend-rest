@@ -46,7 +46,6 @@ class OrderPage extends Component {
         )
     })
 
-    
     const lastOrder =  userOrder[userOrder.length - 1]
         
     if(userOrder.length === 0){
